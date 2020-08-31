@@ -1,0 +1,80 @@
+#boy{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:35em;
+    margin-top: -25px;
+
+}
+.imageBody{
+    text-align: center;
+    padding-top:10em
+}
+.smash{
+    padding-top: 20px;
+}
+h1{
+    font-size:30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+.carousel-item img{
+    height:20em;
+    width:100%
+}
+footer{
+    background-color: rgba(130, 100, 237, 0.123);
+    height:20em;
+    margin-top: 30px;
+}
+.whatsapp{
+	background:rgb(37,211,102);
+	color:white;
+	position:fixed;
+	right:0;
+	height:6vh;
+	top:47vh;
+	padding: 10px;
+	box-sizing:border-box;
+	margin-right:3px;
+	font-size:20px;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	align-items:center;
+	border-radius: 10px 10px 0 10px;
+	border: 1px solid rgb(37,211,102);
+	transition: all 0.5s;
+	z-index:999;
+	font-weight:bold;
+}
+
+.whatsapp:hover{
+	background:none;
+	color: rgb(37,211,102) !important;
+}
+
+
+
+.whatsapp span{
+	margin-right: 10px;
+}
+
+.whatsapp i {
+	transform: rotateY(180deg);
+}
+footer h5{
+    justify-content: right;
+    text-align: right;
+    margin-top:08em;
+}
+footer a{
+    font-size: 30px;
+    color:black
+}
+footer a:hover{
+    color:bisque
+}
